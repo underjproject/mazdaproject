@@ -99,7 +99,15 @@
 <script type="text/javascript" src="js/owl.carousel.js"></script> 
 
 <!-- Javascripts
-    ================================================== --> 
+    ================================================== -->
+    
+<script>
+  $(document).ready(function () {
+    $(".navbar-nav li a").click(function(event) {
+      $(".navbar-collapse").collapse('hide');
+    });
+  });
+</script> 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
